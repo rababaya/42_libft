@@ -6,7 +6,7 @@
 /*   By: rababaya <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/07 16:16:01 by rababaya          #+#    #+#             */
-/*   Updated: 2025/03/11 14:59:48 by rababaya         ###   ########.fr       */
+/*   Updated: 2025/03/17 16:05:08 by rababaya         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -115,7 +115,7 @@ static char	*clear_line(char *buff)
 
 char	*get_next_line(int fd)
 {
-	static char	*buff[OPEN_MAX];
+	static char	*buff[533];
 	char		*res;
 
 	if (BUFFER_SIZE <= 0 || fd < 0)
